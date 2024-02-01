@@ -1,0 +1,228 @@
+/*HEADER.PHP*/
+body{
+    margin: 0;
+    font-family: "Formular", sans-serif;
+}
+
+.containerhead{
+    margin:24px 192px 24px;
+
+}
+
+.containerhead-up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.containerhead-up-left{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.containerhead-up-right{
+    display: flex;
+}
+.up-right-first{
+    padding-right: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    border-right: 1px solid #A78BFA;
+     
+}
+
+.up-right-second{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-left: 12px;
+}
+.up-right-second span{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+
+.containerhead-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerhead-down-left a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+    color:#000;
+}
+
+.containerhead-down-left :hover{
+    color:#8B5CF6;
+}
+
+.containerhead-down-right{
+    display: inline;
+    padding: 10px 28px;
+    background-color: #8B5CF6;
+    border: 1px solid #8B5CF6;
+}
+.containerhead-down-right a{
+    text-decoration: none;
+    color: #fff;
+}
+/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////*/
+/*FOOTER.PHP*/
+body{
+    margin: 0;
+    font-family: "Formular", sans-serif;
+}
+
+.containerfoot{
+    padding:40px 192px 40px;
+    background-color:#111827;
+}
+
+
+.containerfoot-up{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 24px;
+}
+
+.up-one-logo{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color:#F9FAFB;
+    margin-bottom: 8px;
+}
+
+.up-one-text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #F9FAFB;
+}
+
+.up-two a{
+    text-decoration: none;
+    color: #F9FAFB;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-right: 24px;
+}
+
+.up-tree{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #F9FAFB;
+}
+.up-tree span{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.containerfoot-down{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #4B5563;
+}
+/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////*/
+/*INDEX.PHP*/
+
+.container{
+    padding:72px 192px 72px;
+    background-color:#E5E7EB;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main-left-text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.main-left-text span{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.main-right{
+    text-align: center;
+    width: 756px;
+    height: 524px;
+    background-color:#fff;
+    border-radius: 16px;
+    padding: 24px 27px;
+}
+
+.main-right-header{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.main-right-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 28px;
+}
+
+.main-right-form{
+    width: 496px;
+    margin-left: 130px;
+}
+.form-grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+.form-grid input{
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#9CA3AF;
+
+}
+.item-1, .item-2{
+    grid-column: 1/3;
+}
+.item-2{
+    background-color:#8B5CF6;
+    color:#fff;
+    border:#8B5CF6;
+    border-radius:4px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
